@@ -1,0 +1,29 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    margin: 0;
+
+}
+.heading{
+    color: rgb(238, 93, 93);
+}
+.store{
+    text-decoration: none;
+    background: linear-gradient(to right, #ff9966 0%, #e9e38c 100%);
+    padding: 11px 8px;
+    border-radius: 50%;
+}
+#one{
+    display: flex;
+    width: 90%;
+    background-image: url(images/Untitled\ design\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: top;
+    
+}
+#one img{
+    width: 400px;
+}
+#part1{
+    padding-left: 5%;
+}
