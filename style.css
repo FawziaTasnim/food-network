@@ -1,6 +1,6 @@
 body{
-    font-family: 'Open Sans', sans-serif;
-    color: aliceblue;
+    font-family: cursive;
+    color: black;
     font-weight: 600;
     font-size: larger;
     margin: 0;
@@ -9,9 +9,24 @@ body{
     
 
 }
-.heading{
-    color:black;
+
+h1{
+    font-size: 120%;
 }
+#heading{
+    color:white;
+    font-size: 150%;
+}
+#little{
+    font-family:cursive;
+    color: black;
+}
+
+#paraone{
+    color: black;
+    text-align: left;
+}
+
 .store{
     text-decoration: none;
     border-radius: 50%;
@@ -46,18 +61,14 @@ border-radius: 5%;
 box-shadow: 10px 10px 10px  rgb(0, 0, 0);
 text-align: center;
 }
+
 .part2{
     display: flex;
-    width: 95%;
-    padding: 10px;
-    margin: 20px;
-    border-radius: 5%;
-    box-shadow: 10px 10px 10px 2px rgb(0, 0, 0);
+    width: 100%;
     text-align: center;
 }
 .part2 img{
-    width: 200px;
-    padding-left: 60%;
+    width: 300px;
 
 }
 
@@ -67,9 +78,60 @@ text-align: center;
     color: aliceblue;
 }
 
-#padding{
-    padding-left: 12%;
+.row{
+    width: 100%;
+    padding-left: 11%;
+    padding-right: 11%;
 }
-#padding-again{
-    padding-left: 10%;
+.heading{
+    color: orangered;
 }
+#donut{
+    padding-right:15%;
+}
+
+  
+
+#cupcake{
+    border: 3px solid black;
+    padding: 2px 4px 2px 4px;
+    width: 37%;
+    margin: 20px;
+    border-radius: 5%;
+    box-shadow: 10px 10px 10px  rgb(0, 0, 0);
+    text-align: center;
+    
+}
+
+#regularcake{
+    border: 3px solid black;
+    padding: 2px 4px 2px 4px;
+    width: 37%;
+    margin: 20px;
+    border-radius: 5%;
+    box-shadow: 10px 10px 10px  rgb(0, 0, 0);
+    text-align: center;
+
+}
+
+#donut{
+    border: 3px solid black;
+    padding: 2px 4px 2px 2px;
+    width: 37%;
+    margin: 20px;
+    border-radius: 5%;
+    box-shadow: 10px 10px 10px  rgb(0, 0, 0);
+    text-align: center;
+}
+
+
+.head-four{
+    color: black;
+    font:bolder;
+}
+
+>footer{
+    font-size: 40%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
