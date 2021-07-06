@@ -67,4 +67,9 @@ text-align: center;
     color: aliceblue;
 }
 
+.padding{
+    padding-left: 40px;
+}
+.padding-again{
+    padding-left: 20px;
 }
