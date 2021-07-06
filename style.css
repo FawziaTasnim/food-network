@@ -1,29 +1,75 @@
 body{
     font-family: 'Open Sans', sans-serif;
+    color: aliceblue;
     font-weight: 600;
+    font-size: larger;
     margin: 0;
+    background-color: #cc7d7d;
+    margin-left: 5px;
+    
 
 }
 .heading{
-    color: rgb(238, 93, 93);
+    color:black;
 }
 .store{
     text-decoration: none;
-    background: linear-gradient(to right, #ff9966 0%, #e9e38c 100%);
-    padding: 11px 8px;
     border-radius: 50%;
+    padding: 1%;
+    background: linear-gradient(to right,#ff5b84, #ff8aad);
+    color: azure;
 }
-#one{
+.one{
     display: flex;
-    width: 90%;
-    background-image: url(images/Untitled\ design\ \(1\).png);
+    width: 100%;
+    background-image: url(images/#cc7d7d.png);
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: right;
+    text-align: center;
     
 }
-#one img{
-    width: 400px;
+.one img{
+    width: 550px;
 }
 #part1{
     padding-left: 5%;
+    background-image: url(images/ijtik.png);
+    background-repeat: no-repeat;
+    background-size: 15%;
+    background-position: left;
+
+}
+.two{
+padding: 10px;
+margin: 20px;
+border-radius: 5%;
+box-shadow: 10px 10px 10px  rgb(0, 0, 0);
+text-align: center;
+}
+.part2{
+    display: flex;
+    width: 95%;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 5%;
+    box-shadow: 10px 10px 10px 2px rgb(0, 0, 0);
+    text-align: center;
+}
+.part2 img{
+    width: 250px;
+    padding-left: 50%;
+
+}
+
+.footer{
+    background-color:#36151d;
+    text-align: center;
+    color: aliceblue;
+}
+.padding{
+    padding-left: 8%;
+    margin-right: 5%;
+}
+.padding-again{
+    padding-left: 7%;
 }
