@@ -39,7 +39,7 @@ h1{
     width: 100%;
     background-image: url(images/#cc7d7d.png);
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: bottom;
     text-align: center;
     
 }
@@ -128,6 +128,9 @@ text-align: center;
 .head-four{
     color: black;
     font:bolder;
+}
+#popular{
+    text-align: center;
 }
 
 >footer{
